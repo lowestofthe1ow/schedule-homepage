@@ -26,7 +26,8 @@ Fonts:
   padding-left: 25%;
   padding-right: 25%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/main.png");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #FFFFFF;
   letter-spacing: 5px;
   line-height: 20pt;
