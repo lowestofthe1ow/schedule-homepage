@@ -1,0 +1,72 @@
+/*
+Fonts:
+ - Roboto Thin
+ - Roboto Black
+ - Raleway
+ - Raleway ExtraBold
+*/
+
+@font-face {
+  font-family: "Thin";
+  src: url(thin.ttf);
+}
+@font-face {
+  font-family: "Black";
+  src: url(black.ttf);
+}
+@font-face {
+  font-family: "Regular";
+  src: url(regular.ttf);
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url(extrabold.ttf);
+}
+#main {
+  padding-left: 25%;
+  padding-right: 25%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/main.png");
+  background-size: 100%;
+  color: #FFFFFF;
+  letter-spacing: 5px;
+  line-height: 20pt;
+}
+.title {
+  font-family: "ExtraBold";
+  font-size: 84pt;
+}
+#subtitle {
+  font-family: "Thin";
+  font-size: 16pt;
+}
+.enabled {
+  color: rgba(255, 255, 255, 1);
+}
+.disabled {
+  color: rgba(255, 255, 255, 0.4);
+}
+.enabled, .disabled {
+  transition: 0.25s;
+  background: rgba(0, 0, 0, 0.2);
+  border: 3px solid;
+  font-family: "Regular";
+  padding: 20px 40px;
+  font-size: 20pt;
+  letter-spacing: 5px;
+}
+.enabled:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+.bodytext {
+  font-family: "Thin";
+  font-size: 14pt;
+}
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Black";
+}
+.sectionhead {
+  font-family: "Thin";
+  font-size: 24pt;
+}

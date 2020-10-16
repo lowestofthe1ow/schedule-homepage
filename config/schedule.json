@@ -1,0 +1,20 @@
+{
+   "Tuesday":[
+      {
+        "name":"Flag ceremony"
+        "time":28800
+      },
+      {
+        "name":"Filipino"
+        "time":30600
+      },
+      {
+        "name":"Math"
+        "time":37800
+      },
+      {
+        "name":"TLE"
+        "time":50400
+      }
+   ]
+}

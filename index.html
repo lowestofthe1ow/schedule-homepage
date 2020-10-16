@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--made by lorenz "haha funny" marqueses-->
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>New Tab</title>
+    <script src="config/schedule.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <!--Title: 84pt, Subtitle: 16pt, Bodytext: 14pt-->
+  <body id="main" onload="addSched(); updateDay();">
+    <br />
+    <h1 class="title">Hello.</h1>
+    <h2 id="subtitle"></h2>
+    <hr style="border: 1px solid;"/><br />
+    <h2 class="sectionhead">Next class</h2>
+    <p class="bodytext" id="nextclass">Loading next class...</p>
+    <a id="nextclasslink"><button id="nextclassbutton" class="disabled">ENTER NEXT CLASS</button></a>
+    <br /><br />
+    <h2 class="sectionhead">Schedule</h2>
+    <table width="100%" id="schedule">
+    </table>
+  </body>
+</html>
